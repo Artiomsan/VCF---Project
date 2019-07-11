@@ -1,0 +1,47 @@
+
+
+.box-match {
+  margin-left: 20px;
+}
+
+.match-img {
+  width: 200px;
+  height: 200px;
+}
+
+.all-match {
+  display: flex;
+  //flex-direction: row;
+  justify-content: flex-end;
+  padding-bottom: 25px;
+  padding-right: 50px;
+  padding-top: 25px;
+}
+
+.match-adver {
+  width: 450px;
+  height: 200px;
+  background-size: cover;
+
+}
+
+@media only screen and (max-width:1180px)  {
+  .all-match {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 75px;
+  }
+}
+
+@media only screen and (max-width:920px)  {
+  .all-match {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 75px;
+  }
+}
+
