@@ -187,7 +187,6 @@ body {
 }
 
 #div1 span:hover {
-  text-decoration: none;
   text-align: center;
   color: #ff4800;
   border: 2px solid #ff4800;
@@ -197,6 +196,8 @@ body {
   display: inline-block;
   font-weight: 900;
   cursor: pointer;
+  transition: 0.5s all;
+
 }
 
 #line {
@@ -206,9 +207,10 @@ body {
 }
 
 #div1 a:hover ~ #line {
-  border-right: #ff4800 solid 2px;
+  border-right: rgba(#ff4800, 0.5) solid 2px;
   height: 350px;
   width: 75px;
+  transition: 0.5s all;
 
 }
 
