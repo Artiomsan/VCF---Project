@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.1bb9992e.chunk.css",
+    "main.css": "./static/css/main.0f9a1ad1.chunk.css",
     "main.js": "./static/js/main.3c473e9e.chunk.js",
     "main.js.map": "./static/js/main.3c473e9e.chunk.js.map",
     "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
@@ -8,9 +8,9 @@
     "static/js/2.dff86e9e.chunk.js": "./static/js/2.dff86e9e.chunk.js",
     "static/js/2.dff86e9e.chunk.js.map": "./static/js/2.dff86e9e.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.bf0ece54057b9c73611959471c280406.js": "./precache-manifest.bf0ece54057b9c73611959471c280406.js",
+    "precache-manifest.0ef3dc42bba18508a26495e7519d35a8.js": "./precache-manifest.0ef3dc42bba18508a26495e7519d35a8.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.1bb9992e.chunk.css.map": "./static/css/main.1bb9992e.chunk.css.map",
+    "static/css/main.0f9a1ad1.chunk.css.map": "./static/css/main.0f9a1ad1.chunk.css.map",
     "static/media/Kolejne mecz.jpg": "./static/media/Kolejne mecz.721b111a.jpg",
     "static/media/Next match.jpg": "./static/media/Next match.450d6e2e.jpg",
     "static/media/Prev match.jpg": "./static/media/Prev match.7771e030.jpg",

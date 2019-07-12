@@ -73,10 +73,26 @@
   text-shadow: 2px 2px 4px #000000;
 }
 
-.img-description h2:hover {
+.img-description:hover h2 {
   color: #ff4800;
-  font-weight: bold;
-  transition: 0.5s all;
+  font-weight: bolder;
+  transition: 0.7s all;
+
+
+}
+.img-description:hover{
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    //background: rgba(0,0,0,0.1);
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    opacity: 0.2;
+    transition: 0.7s all;
+  }
 
 }
 
@@ -85,6 +101,7 @@
   width: 100%;
   height: 100%;
   text-align: center;
+  transition: 0.5s all;
 
   //display: flex;
   //justify-content: center;
