@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import video from "./Images/Video 1 Trim-test max 1.m4v";
+import video from "./Images/vide min test 2.mp4";
 import Main from "./components/Main-Page/Main";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
