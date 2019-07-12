@@ -6,6 +6,7 @@ class Banner extends React.Component {
     render() {
         return (
             <section className="banner">
+                <div id="div_id"></div>
                 <div className="container">
                     <div className="flex-banner-center">
                         <div className="page-banner">

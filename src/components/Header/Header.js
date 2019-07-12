@@ -15,6 +15,7 @@ class Header extends React.Component {
             <header className="page-header">
 
                 <div className="container">
+
                     <div className="header-flex">
                         <div className="page-nav-log">
                             <a href="/" className="page-logo">
@@ -30,7 +31,9 @@ class Header extends React.Component {
                             </ul>
                         </nav>
                     </div>
+
                 </div>
+
             </header>
         )
     }

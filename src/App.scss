@@ -101,6 +101,11 @@ body {
   height: 100%;
   background: fade_out(#F8D800, 0.5);
 
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+
 }
 
 
@@ -167,6 +172,45 @@ body {
   transform: scaleY(1);
 }
 
+
+#div1 span {
+  text-decoration: none;
+  text-align: center;
+  color: rgba(#ff4800, 0.5);
+  border: 2px solid rgba(#fffe, 0.5);
+  border-radius: 4px;
+  width: 150px;
+  line-height: 40px;
+  display: inline-block;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+#div1 span:hover {
+  text-decoration: none;
+  text-align: center;
+  color: #ff4800;
+  border: 2px solid #fffe;
+  border-radius: 4px;
+  width: 150px;
+  line-height: 40px;
+  display: inline-block;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+#line {
+  border-right: rgba(#fff, 0.5) solid 2px;
+  height: 350px;
+  width: 75px;
+}
+
+#div1 a:hover ~ #line {
+  border-right: #fff solid 2px;
+  height: 350px;
+  width: 75px;
+
+}
 
 
 
